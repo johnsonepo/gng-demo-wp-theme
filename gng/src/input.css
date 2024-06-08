@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+.no-overflow {
+    overflow-x: hidden;
+}
+
+.sticky-bg {
+    background-color: #050404; 
+}
+.swiper-pagination-bullet-active {
+    background-color: #F59E0B; 
+}
+.swiper-pagination-bullet {
+    color: #718096; 
+}
+
+@media (min-width: 768px) {
+    .menu-item:hover .sub-menu {
+        position: absolute;
+        display: block;
+        background-color: transparent;
+        padding-top: 40px; 
+ 
+        width: 250px;
+    
+        z-index: 10;
+    }
+    .menu-item:hover .sub-menu ul {
+        background-color: #1b1c1e; 
+        padding: 0;
+    }
+    .menu-item:hover .sub-menu ul li:hover {
+        background-color: #ED9507; 
+        padding: 0;
+    }
+    .border-right-slant::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 1px;
+        background-color: #718096; 
+        transform: rotate(7deg);
+        transform-origin: bottom right;
+    }
+    .e-icon {
+        font-size: 21px; 
+    }
+    .e-icon2 {
+        font-size: 30px; 
+    }
+}
