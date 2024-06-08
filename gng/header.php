@@ -31,7 +31,7 @@
                     ) );
                 ?>
                 <div class="ml-2">
-                    <button class="border-2 border-primary text-primary w-full px-6 py-4 rounded-full">
+                    <button class="border-2 border-primary hover:border-white hover:text-white text-primary w-full px-6 py-2 rounded-full">
                         Book Strategy Call
                     </button>
                 </div>
@@ -57,7 +57,7 @@
                         <img class="h-[5rem] mx-auto" src="<?php echo get_template_directory_uri(); ?>/images/gng-logo.png" alt="GNG logo white">
                     </a>
                 </div>
-                <nav class="mb-5 pl-[18%] mt-14 lg:hidden">
+                <nav class="mb-5 pl-[18%] mt-14 lg:hidden w-screen">
                     <?php
                         wp_nav_menu( array(
                             'theme_location' => 'header-menu',
