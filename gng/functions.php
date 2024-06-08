@@ -230,7 +230,7 @@ function our_solutions_block() {
             </div>
         </div>
         <div class="flex-1 flex justify-center order-1 md:order-2 ">
-            <img class="w-[16rem] md:w-[17rem] lg:w-[18rem]" src="' .get_template_directory_uri() . '/images/white-ninja-full.svg" alt="">
+            <img class="w-[10rem] md:w-[17rem] lg:w-[18rem]" src="' .get_template_directory_uri() . '/images/white-ninja-full.svg" alt="">
         </div>
     </div>
     <div class="flex flex-col md:flex-row justify-between  py-6 lg:py-10 p-4 space-y-8 md:space-y-0 md:space-x-8 items-center">
@@ -252,7 +252,7 @@ function our_solutions_block() {
             </div>
         </div>
         <div class="flex-1 flex justify-center md:justify-start">
-            <img class="w-[16rem] md:w-[17rem] lg:w-[18rem]" src="' .get_template_directory_uri() . '/images/white-ninja-full.svg" alt="">
+            <img class="w-[10rem] md:w-[17rem] lg:w-[18rem]" src="' .get_template_directory_uri() . '/images/white-ninja-full.svg" alt="">
         </div>
     </div>
     <div class="flex flex-col md:flex-row justify-between  py-6 lg:py-10 p-4 space-y-8 md:space-y-0 md:space-x-8 items-center">
@@ -274,7 +274,7 @@ function our_solutions_block() {
             </div>
         </div>
         <div class="flex-1 flex justify-center order-1 md:order-2">
-            <img class="w-[16rem] md:w-[17rem] lg:w-[18rem]" src=" ' .get_template_directory_uri() . '/images/white-ninja-full.svg" alt="">
+            <img class="w-[10rem] md:w-[17rem] lg:w-[18rem]" src=" ' .get_template_directory_uri() . '/images/white-ninja-full.svg" alt="">
         </div>
     </div>
 </div>';
